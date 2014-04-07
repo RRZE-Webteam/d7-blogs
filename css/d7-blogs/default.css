@@ -1,0 +1,292 @@
+/** KOPF */
+
+
+
+body#start div#kopf {
+
+	/* background-image: url(../grafiken/d7-blogs/header-final.png); */
+
+}
+
+
+
+div#kopf div#logo {
+
+}
+
+
+
+div#kopf div#logo p {
+
+	height: 77px;
+
+	background-image: url(../grafiken/d7-blogs/logo-regular.png);
+
+	background-repeat: no-repeat;
+
+	padding-left: 150px;
+
+	width: 170px;
+
+	line-height: 60px;
+
+}
+
+
+
+/** CONTENT */
+
+
+
+#aboutblogs {
+
+	margin: 0px;
+
+	width: 600px;
+
+	float: left;
+
+}
+
+
+
+#aboutblogs h2 {
+
+	background-color: #FFCC66;
+
+}
+
+
+
+#aboutblogs p {
+
+	float: left;
+
+	width: 280px;
+
+	padding: 10px;
+
+}
+
+
+
+
+
+#howtostart {
+
+	float: left;
+
+	width: 600px;
+
+}
+
+
+
+#howtostart h2 {
+
+	width: 600px;
+
+	background-color: #6699CC;
+
+}
+
+
+
+#content #howtostart ul {
+
+	float: left;
+
+	padding: 0px;
+
+	width: 600px;
+
+	padding-left: 0px;
+
+	margin-left: 20px;
+
+}
+
+
+
+#howtostart li {
+
+	padding-left: 0px;
+
+	margin-left: 0px;
+
+	float: left;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	margin-right: 93px;
+
+	margin-bottom: 10px;
+
+	width: 128px;
+
+	height: 148px;
+
+	list-style-type: none;
+
+	text-align: center;
+
+	background-position: 50% 0px;
+
+	background-repeat: no-repeat;
+
+}
+
+
+
+#howtostart li#create {
+
+	background-image: url(../grafiken/d7-blogs/Blog-erstellen.png);
+
+}
+
+
+
+#howtostart li {
+
+	background-image: url(../grafiken/d7-blogs/Blog-anpassen.png);
+
+}
+
+
+
+#howtostart li#startblogging {
+
+	background-image: url(../grafiken/d7-blogs/Los-bloggen.png);
+
+	margin: 0px;
+
+}
+
+
+
+#howtostart li a {
+
+	line-height: 290px;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+#readblogs {
+
+	width: 600px;
+
+}
+
+
+
+#readblogs h2 {
+
+	width: 600px;
+
+	float: left;
+
+	background-color: #99CC99;
+
+}
+
+
+
+#readblogs ul {
+
+	width: 600px;
+
+	float: left;
+
+}
+
+
+
+#readblogs ul li {
+
+	width: 600px;
+
+}
+
+
+
+#splash {
+
+}
+
+
+
+#splash h2 {
+
+	width: 600px;
+
+	padding: 3px;
+
+	color: #000000 !important;
+
+	padding-left: 10px;
+
+	border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+}
+
+
+
+#splash h2 a {
+
+	display: block;
+
+	margin-top: 3px;
+
+	margin-right: 3px;
+
+	width: 15px;
+
+	height: 15px;
+
+	background:url(../grafiken/d7-blogs/arrows-up.png ) no-repeat 0 50%;
+
+	text-indent: -10000px;
+
+	float: right;
+
+}
+
+
+
+#splash .hidden h2 a {
+
+	background-image: url(../grafiken/d7-blogs/arrows-down.png);
+
+}
+
+
+
+#splash:after {
+
+    content: ".";
+
+    display: block;
+
+    height: 0;
+
+    clear: both;
+
+    visibility: hidden;
+
+}
+
+
+

@@ -1,0 +1,41 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Basisstylesheet D4, Variante FAU-Portal 2.2                         */ 
+/*    IE-6 Hacks                                                       */
+/*                                                                     */      
+/* Projekt Vorlagenkatalog http://www.vorlagen.uni-erlangen.de  -- - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+div#menu {
+	display: inline;
+	float: left;
+
+}
+div#tecmenu {
+	top: 20px !important;
+
+}
+
+/*  ------------------------------------------------------
+FOOTER
+--------------------------------------------------------*/
+div#footer { 	height: 1%;}
+div#footer div#footerinfos div#tecmenu {
+	right: 20px;
+} 
+
+/*  ------------------------------------------------------
+Definitionen fuer allgemeine Formulare
+--------------------------------------------------------*/
+input, textarea, select {
+padding: 3px 4px;
+font-family: "Verdana", "Arial",  sans-serif;
+border-style: solid;
+border-width: 1px;
+font-size: 1em;
+}
+
+input.radio, input.checkbox {
+border-style: none;
+border-width: 0;
+background: transparent;
+}
